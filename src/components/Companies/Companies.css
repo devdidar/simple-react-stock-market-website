@@ -1,0 +1,14 @@
+.companies {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.companies-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.cart {
+  margin-left: 20px;
+  width: 20%;
+}
